@@ -1,0 +1,61 @@
+Dataset is available to download from official webiste mentioned below.
+
+  https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
+
+Dataset Definitions:
+
+	1. Global_active_power (kW) 
+
+    	* real power consumed by the household
+    	
+    		P=V×I×cosφ 
+        where V = voltage, I = current, cosφ\cos\varphicosφ = power factor (PF per phase)
+
+	2. Global_reactive_power (kvar)
+
+	    * power that oscillates between source and load due to inductive (motors) or capacitive (electronics) effects.
+      * affects current flow so lower efficiency
+	
+		    Q=V×I×sinφ
+		    where V = voltage, I = current, sinφ\sin\varphisinφ = power factor (PF per phase)
+
+	3. Voltage (V)
+
+      * pressure driving current through the household wiring
+      * Fluctuations affect appliance performance (low V → dim lights; high V → possible damage)
+
+	4. Global_intensity (A)
+
+      * average current drawn by household
+	
+	5. Sub_metering_1 (wh)
+
+      * power consumed by kitchen (microwave, dishwasher, oven)
+
+	6. Sub_metering_2 (wh)
+
+      * power consumed by laundry room (washing machine, tumble-drier, refrigerator, light)
+	
+	7. Sub_metering_3 (wh)
+
+      * power consumed by water heater and air conditioner
+	
+	8. Global_energy_consumption (wh)
+
+      * energy consumed in a household per minute
+	
+    		Energy (global_per_hour) = Power global * Time per_hour 
+    		Energy (global_per_min) = (global_active_power * 1000/60) (wh)
+	
+	9. Global_sub_metered_energy (wh)
+
+      * measured by metered individual power
+	
+		    Energy (Global_sub_metered) = sub_metering_1 + sub_metering_2 + sub_metering_3
+	
+	10. Global_unmetered_energy (wh)
+
+      * unmetered household power
+	
+		    E (unmetered)  = E (global) + E (Global_sub_metered)
+
