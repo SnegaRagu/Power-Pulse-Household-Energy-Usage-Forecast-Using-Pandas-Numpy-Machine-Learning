@@ -37,26 +37,35 @@ Location : https://archive.ics.uci.edu/dataset/235/individual+household+electric
 
 **Project Workflow**
 
-Data Understanding and Exploration:
+1. Data Understanding and Exploration:
 
-Load and explore the dataset for structure and quality.
-Perform exploratory data analysis (EDA) to identify patterns, correlations, and outliers.
-Data Preprocessing:
+  * Load and explore the dataset for structure and quality.
+  * Perform exploratory data analysis (EDA) to identify patterns, correlations, and outliers.
+    
+2. Data Preprocessing:
 
-Handle missing values and inconsistencies.
-Parse date and time into separate features.
-Normalize and scale the data for better performance.
-Feature Engineering:
+  * Handle missing values and inconsistencies.
+  * Parse date and time into separate features.
+  * Normalize and scale the data for better performance.
 
-Extract relevant features like daily averages, peak hours, and rolling averages.
-Integrate external data, such as weather conditions, if available.
-Model Development:
+3. Feature Engineering:
 
-Train regression models: Linear Regression, Random Forest, Gradient Boosting, and Neural Networks.
-Perform hyperparameter tuning to optimize performance.
-Evaluation and Insights:
+  * Extract relevant features like daily averages, peak hours, and rolling averages.
+  * Integrate external data, such as weather conditions, if available.
+  
+4. Model Development:
 
-Evaluate models using RMSE, MAE, and R-squared metrics.
-Visualize energy trends and feature importance.
+  * Train regression models: Linear Regression, Random Forest, Gradient Boosting, and Neural Networks.
+  * Perform hyperparameter tuning to optimize performance.
+    
+5. Evaluation and Insights:
+
+  * Evaluate models using RMSE, MAE, and R-squared metrics.
+  * Visualize energy trends and feature importance.
   
 -------------------------------------------------------------------------------
+
+**Results**
+
+Built an regression model predicting accurate global power consumption.
+Identified and visulaized factors influencing energy usage and model performance.
