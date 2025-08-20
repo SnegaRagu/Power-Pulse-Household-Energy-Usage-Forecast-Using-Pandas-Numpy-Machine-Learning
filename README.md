@@ -13,7 +13,7 @@ By the end of this project, learners should provide actionable insights into ene
 
 **Dataset**
 
-Dataset primarily consists of historical data of a household located in Sceaux near Paris, France during December 2006 and November 2010.
+Dataset primarily consists of historical data of a household located in Sceaux near Paris, France during December 2006 and November 2010. Refer Dataset.txt for more information.
 
 Location : https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 
