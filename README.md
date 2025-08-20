@@ -37,35 +37,26 @@ Location : https://archive.ics.uci.edu/dataset/235/individual+household+electric
 
 **Project Workflow**
 
-1. Data Understanding and Exploration
-   
-    * Load and explore the dataset to understand its structure, variables, and quality.
-    * Perform exploratory data analysis (EDA) to identify patterns, correlations, and outliers.
-   
-2. Data Preprocessing
-   
-    * Handle missing or inconsistent data points.
-    * Parse date and time into separate features.
-    * Create additional features such as daily averages, peak hours, or rolling averages.
-    * Normalize or scale the data for better model performance.
+Data Understanding and Exploration:
 
-3. Feature Engineering:
-   
-    * Identify relevant features for predicting global active power consumption.
-    * Incorporate external data (e.g., weather conditions) if available.
+Load and explore the dataset for structure and quality.
+Perform exploratory data analysis (EDA) to identify patterns, correlations, and outliers.
+Data Preprocessing:
 
-5. Model Selection and Training:
-   
-    * Split the dataset into training and testing sets.
-    * Train regression models such as Linear Regression, Random Forest, Gradient Boosting, and Neural Networks.
-    * Perform hyperparameter tuning to optimize model performance.
-      
-5.Model Evaluation:
+Handle missing values and inconsistencies.
+Parse date and time into separate features.
+Normalize and scale the data for better performance.
+Feature Engineering:
 
-    * Train regression models such as Linear Regression, Random Forest, Gradient Boosting, and Neural Networks.
-    * Perform hyperparameter tuning to optimize model performance.
-    * Evaluate models using appropriate metrics (e.g., RMSE, MAE, R-squared).
-    * Compare model performance and select the best-performing model.
+Extract relevant features like daily averages, peak hours, and rolling averages.
+Integrate external data, such as weather conditions, if available.
+Model Development:
 
+Train regression models: Linear Regression, Random Forest, Gradient Boosting, and Neural Networks.
+Perform hyperparameter tuning to optimize performance.
+Evaluation and Insights:
+
+Evaluate models using RMSE, MAE, and R-squared metrics.
+Visualize energy trends and feature importance.
   
 -------------------------------------------------------------------------------
