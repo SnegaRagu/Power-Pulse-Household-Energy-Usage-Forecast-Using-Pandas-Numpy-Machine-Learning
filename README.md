@@ -17,6 +17,8 @@ Dataset primarily consists of historical data of a household located in Sceaux n
 
 Location : https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 
+For weather dataset, extracted from Meteostat library which provides weather data from the nearby weather station. Attached weather dataset extraction ipynb file.
+
 -------------------------------------------------------------------------------
 
 **Tools and Technologies**
